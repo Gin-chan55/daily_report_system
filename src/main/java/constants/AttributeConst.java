@@ -41,6 +41,9 @@ public enum AttributeConst {
     DEL_FLAG_TRUE(1),
     DEL_FLAG_FALSE(0),
 
+    IINE_COUNT("count"),
+    IS_IINE("is_iine"),
+
     //日報管理
     REPORT("report"),
     REPORTS("reports"),

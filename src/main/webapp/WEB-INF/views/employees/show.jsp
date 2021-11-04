@@ -50,5 +50,6 @@
         <p>
             <a href="<c:url value='?action=${actEmp}&command=${commIdx}' />">一覧に戻る</a>
         </p>
+
     </c:param>
 </c:import>

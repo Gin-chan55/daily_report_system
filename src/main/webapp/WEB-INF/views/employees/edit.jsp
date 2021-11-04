@@ -26,13 +26,6 @@
             <input type="hidden" name="${AttributeConst.EMP_ID.getValue()}" value="${employee.id}" />
             <input type="hidden" name="${AttributeConst.TOKEN.getValue()}" value="${_token}" />
         </form>
-        <script>
-            function confirmDestroy() {
-                if (confirm("本当に削除してよろしいですか？")) {
-                    document.forms[1].submit();
-                }
-            }
-        </script>
 
         <p>
             <a href="<c:url value='?action=${action}&command=${commIdx}' />">一覧に戻る</a>
